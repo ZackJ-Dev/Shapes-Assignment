@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
             } else if (input == "line") {
                 (*(ptr++)) = (new Line());
             } else {
-                break;
+                continue;
             }
             (*(ptr-1))->SetTurtle(tp);
             cout << "Created Shape!" << endl  << *(objArr + count) << endl;
